@@ -1,0 +1,29 @@
+echo "# PEM-APP-WEB" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/PemMed-Web/pem-admin.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/PemMed-Web/pem-admin.git
+git branch -M main
+
+#COMMITING
+git status
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/PemMed-Web/pem-admin.git
+git push -u origin main
+
+#PUSHING
+git push -u origin main
+
+#PULLING
+git pull https://github.com/PemMed-Web/pem-admin.gitL
+
+#CLONING
+git clone https://github.com/PemMed-Web/pem-admin.git
+
