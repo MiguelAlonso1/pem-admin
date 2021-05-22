@@ -61,7 +61,7 @@ const LoginPage = () => {
           <MDBCard>
             <MDBCardBody className="mx-4">
               <div className="text-center">
-                <h3 className="pink-text mb-5">
+                <h3 className="blue-text mb-5">
                   <strong>Login</strong>
                 </h3>
               </div>
@@ -86,7 +86,7 @@ const LoginPage = () => {
                 <MDBCol md="6" className=" mb-2 ">
                   <MDBBtn
                     className="z-depth-1"
-                    color="pink"
+                    color="blue"
                     rounded
                     block
                     disabled={isSubmit}
@@ -103,14 +103,6 @@ const LoginPage = () => {
                 </MDBCol>
               </MDBRow>
             </MDBCardBody>
-            <div className="footer pt-3 mdb-color lighten-3">
-              <MDBRow className="d-flex justify-content-center">
-                <p className="font-small white-text mb-2 pt-3">
-                  Thanks for using our website
-                </p>
-              </MDBRow>
-              <MDBRow className="mt-2 mb-3 d-flex justify-content-center"></MDBRow>
-            </div>
           </MDBCard>
         </MDBCol>
       </MDBRow>
