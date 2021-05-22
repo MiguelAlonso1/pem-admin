@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <MDBNavbar
-      style={{ background: "#880E4F" }}
+      style={{ background: "#0878CA" }}
       className="header"
       dark
       expand="md"
