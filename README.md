@@ -1,5 +1,9 @@
 # <a style="text-align:center" href='https://github.com/pemmed/pem-app'><img src='https://i.imgur.com/4HAEm2D.png' alt='Pem App Logo' aria-label='https://github.com/pemmed/pem-app' /></a>
 
+## Introduction
+
+Pediatric Emergency Medicine App is designed for healthcare workers such as nurse practitioners, physician assistants, residents in pediatric, emergency medicine and family medicine residency programs, fellows in pediatric emergency medicine, and attending physicians in emergency and urgent care settings that provide acute care to sick and injured children. The app will provide updated medical information quickly and clearly for the common medical emergencies that are seen in emergency departments and urgent care settings. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
