@@ -4,6 +4,18 @@
 
 Pediatric Emergency Medicine App is designed for healthcare workers such as nurse practitioners, physician assistants, residents in pediatric, emergency medicine and family medicine residency programs, fellows in pediatric emergency medicine, and attending physicians in emergency and urgent care settings that provide acute care to sick and injured children. The app will provide updated medical information quickly and clearly for the common medical emergencies that are seen in emergency departments and urgent care settings. 
 
+## Installation
+First make sure you have the latest stable version of [Node](https://nodejs.org/en/download/)
+### Get Node For Mac
+```
+curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
+```
+### Get Node For Windows
+Go [here](https://nodejs.org/en/download/) and choose your corresponding windows version.
+
+### Get Git
+Download the correct version [here](https://git-scm.com/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
