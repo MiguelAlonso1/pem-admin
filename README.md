@@ -1,3 +1,5 @@
+# <a style="text-align:center" href='https://github.com/pemmed/pem-app'><img src='https://i.imgur.com/4HAEm2D.png' alt='Pem App Logo' aria-label='https://github.com/pemmed/pem-app' /></a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
