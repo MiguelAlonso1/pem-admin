@@ -1,10 +1,25 @@
 import React from "react";
 
-export default ({ icon }) => {
+export default (props) => {
   return (
-    <div className="test my-5">
-      <img src={icon} alt="" />
-      <h6>Subtitulo</h6>
+    <div
+      className="test m-2 d-flex justify-content-center align-items-center"
+      style={{
+        height: "20rem",
+        width: "20rem",
+        overflow: "hidden",
+        background: props.color,
+      }}
+    >
+      <div
+        style={{
+          backgroundImage: `url(${props.image})`,
+          width: 80,
+          height: 80,
+        }}
+      >
+        <h6>{props.title}</h6>
+      </div>
     </div>
   );
 };
